@@ -1,5 +1,5 @@
 {
-  "name": "@idea2app/next-bootstrap-ts",
+  "name": "@dethan3/open_library",
   "version": "1.6.0",
   "description": "React project scaffold based on TypeScript, Next.js, Bootstrap & Workbox.",
   "private": true,
@@ -81,7 +81,7 @@
     "start": "next start",
     "lint": "next lint",
     "test": "lint-staged  &&  npm run lint",
-    "pack-image": "docker build -t idea2app/next-bootstrap-ts:latest .",
-    "container": "docker rm -f next-bootstrap-ts  &&  docker run --name next-bootstrap-ts -p 3000:3000 -d idea2app/next-bootstrap-ts:latest"
+    "pack-image": "docker build -t dethan3/open_library:latest .",
+    "container": "docker rm -f open_library  &&  docker run --name open_library -p 3000:3000 -d dethan3/open_library:latest"
   }
 }
